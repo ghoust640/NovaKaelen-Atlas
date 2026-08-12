@@ -165,6 +165,39 @@
     <div id="tiers"></div>
   </section>
 
+  <section id="s-section" data-sec="Section" data-screen-label="SECTION LINE" style="border-bottom:1px solid #0A0A0A">
+    <div data-head style="display:flex;align-items:flex-end;justify-content:space-between;gap:12px;padding:10px;border-bottom:1px solid #0A0A0A">
+      <h2 style="margin:0;font-weight:700;font-size:clamp(20px,5.2vw,46px);line-height:0.86;letter-spacing:-0.045em;text-transform:uppercase"><span style="color:var(--ac)">[SX]</span> Section<br>line</h2>
+      <span style="font-family:'Victor Mono',monospace;font-size:9.5px;letter-spacing:0.08em;text-transform:uppercase;color:var(--dim);text-align:right">DRAG THE SCALE<br>0 TO 214 M</span>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr;gap:0;border-bottom:1px solid #0A0A0A">
+      <div style="display:grid;grid-template-columns:minmax(0,1fr) 92px;align-items:stretch">
+        <div style="padding:12px 10px 14px;min-width:0">
+          <div style="display:flex;align-items:baseline;gap:8px;line-height:0.72">
+            <span id="elAlt" style="font-weight:700;font-size:clamp(72px,25vw,208px);letter-spacing:-0.07em;font-variant-numeric:tabular-nums">96</span>
+            <span style="font-family:'Victor Mono',monospace;font-size:clamp(14px,4vw,30px);font-weight:600;letter-spacing:0.02em;color:var(--ac)">M</span>
+          </div>
+          <div id="elBand" style="margin-top:10px;font-weight:700;font-size:clamp(18px,4.6vw,34px);line-height:1;letter-spacing:-0.035em;text-transform:uppercase">UPPER TERRACE</div>
+          <div id="elMeta" style="margin-top:5px;font-family:'Victor Mono',monospace;font-size:10px;letter-spacing:0.08em;text-transform:uppercase;color:var(--dim)">TIER 04 / CUT INTO THE NORTH WALL</div>
+          <p id="elNote" style="margin:9px 0 0;font-size:13.5px;line-height:1.6;max-width:64ch;text-wrap:pretty">Observation decks and terrace cafés, reached by lift, funicular or cable car.</p>
+          <div id="elStats" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(124px,1fr));gap:1px;margin-top:12px;background:rgba(10,10,10,0.22);border:1px solid rgba(10,10,10,0.22)"></div>
+        </div>
+        <div id="elTrack" tabindex="0" role="slider" aria-label="Elevation above the river, in metres" aria-valuemin="0" aria-valuemax="214" aria-valuenow="96" style="position:relative;border-left:1px solid #0A0A0A;background:rgba(10,10,10,0.05);cursor:ns-resize;touch-action:none;min-height:340px;overflow:hidden">
+          <div id="elFill" style="position:absolute;left:0;right:0;bottom:0;height:45%;background:rgba(10,10,10,0.10);pointer-events:none"></div>
+          <div id="elCloud" style="position:absolute;left:0;right:0;bottom:45%;height:0;border-top:1px dashed rgba(10,10,10,0.45);pointer-events:none"></div>
+          <div id="elTicks" style="position:absolute;inset:0;pointer-events:none"></div>
+          <div id="elHandle" style="position:absolute;left:0;right:0;bottom:45%;height:2px;background:#0A0A0A;pointer-events:none">
+            <span id="elHandleTag" style="position:absolute;right:3px;bottom:3px;background:#0A0A0A;color:#F2F1EE;padding:2px 5px;font-family:'Victor Mono',monospace;font-size:9px;font-weight:600;letter-spacing:0.1em;white-space:nowrap">04</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;padding:9px 10px;font-family:'Victor Mono',monospace;font-size:9.5px;letter-spacing:0.1em;text-transform:uppercase;color:var(--dim)">
+      <span>DRAG OR TAP THE SCALE / ↑ ↓ TO STEP ONE METRE</span>
+      <span id="elCloudNote" style="color:var(--ac)">CLOUD BASE TODAY 96 M</span>
+    </div>
+  </section>
+
   <section id="s-places" data-sec="Places" data-screen-label="04 PLACES" style="border-bottom:1px solid #0A0A0A">
     <div data-head style="display:flex;align-items:flex-end;justify-content:space-between;gap:12px;padding:10px;border-bottom:1px solid #0A0A0A">
       <h2 style="margin:0;font-weight:700;font-size:clamp(20px,5.2vw,46px);line-height:0.86;letter-spacing:-0.045em;text-transform:uppercase"><span style="color:var(--ac)">[04]</span> Ten places<br>worth your day</h2>
@@ -307,12 +340,17 @@
       <span style="font-family:'Victor Mono',monospace;font-size:clamp(17px,4.6vw,44px);line-height:0.8;color:var(--ac)">↘</span>
     </div>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px 24px;padding:8px 10px 12px;border-bottom:1px solid #0A0A0A">
-      <p style="margin:0;font-size:13.5px;line-height:1.55;text-align:justify;text-wrap:pretty">The city as it actually looks, photographed by the people who live in it: gorge fog swallowing the second expressway deck at first light, and the north terrace parapets at the hour the sun comes off the tower glass. Prints are pulled from the municipal negative archive.</p>
+      <p style="margin:0;font-size:13.5px;line-height:1.55;text-align:justify;text-wrap:pretty">The city as it actually looks, photographed by the people who live in it: gorge fog swallowing the second expressway deck at first light, the crown floors lost in channel cloud by mid-morning, the north terrace parapets at the hour the sun comes off the glass, and the flood ponds past the last tram stop. Filter by tier or by light; prints are pulled from the municipal negative archive.</p>
       <div style="font-family:'Victor Mono',monospace;font-size:10px;letter-spacing:0.06em;text-transform:uppercase;color:var(--dim);display:grid;gap:3px;align-content:start">
         <div style="display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid #DAD7D0;padding-bottom:3px"><span>ITEMS IN ARCHIVE</span><span style="color:#0A0A0A">6,800</span></div>
-        <div style="display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid #DAD7D0;padding-bottom:3px"><span>PLATES SHOWN</span><span id="galcount" style="color:#0A0A0A">3</span></div>
+        <div style="display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid #DAD7D0;padding-bottom:3px"><span>PLATES SHOWN</span><span id="galcount" style="color:#0A0A0A">4</span></div>
         <div style="display:flex;justify-content:space-between;gap:12px"><span>FORMAT</span><span style="color:#0A0A0A">SILVER / DIGITAL</span></div>
       </div>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;align-items:center;gap:6px;padding:9px 10px;border-bottom:1px solid #0A0A0A">
+      <span style="font-family:'Victor Mono',monospace;font-size:9.5px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--dim);margin-right:2px">FILTER / </span>
+      <div id="galfilters" style="display:flex;flex-wrap:wrap;gap:6px"></div>
+      <span id="galempty" style="display:none;font-family:'Victor Mono',monospace;font-size:9.5px;letter-spacing:0.1em;text-transform:uppercase;color:var(--ac)">NO PLATE MATCHES BOTH FILTERS</span>
     </div>
     <div id="galgrid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:14px;padding:14px 10px 18px"></div>
     <div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;padding:9px 10px;border-top:1px solid #0A0A0A;font-family:'Victor Mono',monospace;font-size:9.5px;letter-spacing:0.1em;text-transform:uppercase;color:var(--dim)">
@@ -349,12 +387,14 @@
     </div>
     <button id="nkSkip" type="button" aria-label="Cross-fade to the next track" style="min-width:44px;min-height:44px;border:0;border-left:1px solid #0A0A0A;background:transparent;color:#0A0A0A;cursor:pointer;font:inherit;font-size:13px">⇥</button>
   </div>
-  <audio id="nkAud0" src="audio/Next_to_U.mp3" preload="auto"></audio>
+  <audio id="nkAud0" src="audio/Next_To_U.mp3" preload="auto"></audio>
   <audio id="nkAud1" src="audio/worldpeace.mp3" preload="auto"></audio>
 
   <div aria-hidden="true" style="position:absolute;width:1px;height:1px;overflow:hidden;opacity:0;pointer-events:none">
     <img id="galsrc01" src="image/fog.jpg" alt="" width="1" height="1">
     <img id="galsrc02" src="image/parapet.jpg" alt="" width="1" height="1">
+    <img id="galsrc03" src="image/towers.jpg" alt="" width="1" height="1">
+    <img id="galsrc04" src="image/drowned-forest.jpg" alt="" width="1" height="1">
   </div>
 
   <footer style="display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;padding:12px 10px;font-family:'Victor Mono',monospace;font-size:9.5px;letter-spacing:0.1em;text-transform:uppercase;color:var(--dim)">
@@ -372,6 +412,7 @@ class Component extends DCLogic {
   teardown(root) {
     root.dataset.audio = '';
     root.querySelectorAll('audio').forEach((a) => { a.pause(); a.currentTime = 0; });
+    if (root.__nkCtx) { try { root.__nkCtx.close(); } catch (e) {} root.__nkCtx = null; }
     if (root.__nkScroll) { window.removeEventListener('scroll', root.__nkScroll); root.__nkScroll = null; }
     if (this._onKey) window.removeEventListener('keydown', this._onKey);
     if (this._liveTimer) clearInterval(this._liveTimer);
@@ -572,6 +613,68 @@ class Component extends DCLogic {
       });
       tiersWrap.appendChild(row);
     });
+
+    /* ── section line: drag the elevation scale ── */
+    const TIERBANDS = [
+      [0, 8, '01', 'RIVER LEVEL', 'QUAYS, FERRIES, CARGO BARGES', 'Cool in summer, loud all year, cheapest place to eat. Everything down here is built to be hosed out after the March floods.', 'WALK IN', 2],
+      [8, 40, '02', 'STACKED EXPRESSWAYS', 'FOUR ROAD DECKS AND A RAIL VIADUCT', 'The interchange threads four levels of highway through the gorge inside a 200 m span. Standing under it, you feel the decks before you hear them.', 'STAIRS / QUAY', 14],
+      [40, 90, '03', 'HOUSING TIERS', '1968 CONCRETE, SUB-RAIL STATIONS', 'Nine in ten residents live at this height. Stairwells work as streets and building numbers restart on every tier, which is why nobody gives directions by address.', 'SUB-RAIL', 79],
+      [90, 120, '04', 'UPPER TERRACE', 'OBSERVATION DECKS, TERRACE CAFÉS', 'Cut into the north wall and reached by lift, funicular or cable car. This is where the city looks most like its own postcards, and where it is most expensive to sit down.', 'FUNICULAR / CABLE CAR', 94],
+      [120, 214, '05', 'TOWER CROWNS', 'OFFICES, HOTEL BARS, FIVE GLAZED BRIDGES', 'Private above the twentieth floor, but the bridges between the towers are public right of way: five buildings on foot without ever descending.', 'LIFT / SKY-BRIDGE', 100],
+    ];
+    const DOY = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0)) / 864e5);
+    const CLOUD = 62 + (DOY * 37) % 96;
+    const track = q('#elTrack'), handle = q('#elHandle'), fill = q('#elFill'), stats = q('#elStats');
+    const MAXM = 214;
+    let alt = Math.min(MAXM, CLOUD);
+    const bandOf = (m) => TIERBANDS.find(([lo, hi]) => m >= lo && m < hi) || TIERBANDS[TIERBANDS.length - 1];
+    const statCell = (k, v, hot) =>
+      '<div style="background:#F2F1EE;padding:7px 8px"><div style="font-family:' + MONO + ';font-size:9px;letter-spacing:0.12em;text-transform:uppercase;color:#8A8880">' + k + '</div>'
+      + '<div style="font-family:' + MONO + ';font-size:13px;font-weight:600;letter-spacing:-0.01em;margin-top:2px;color:' + (hot ? AC() : '#0A0A0A') + '">' + v + '</div></div>';
+    const paintEl = () => {
+      const [lo, hi, tier, name, meta, note, access, below] = bandOf(alt);
+      const pct = (alt / MAXM) * 100;
+      q('#elAlt').textContent = String(Math.round(alt));
+      q('#elBand').textContent = name;
+      q('#elMeta').textContent = 'TIER ' + tier + ' / ' + meta;
+      q('#elNote').textContent = note;
+      handle.style.bottom = pct + '%';
+      fill.style.height = pct + '%';
+      q('#elHandleTag').textContent = tier;
+      track.setAttribute('aria-valuenow', String(Math.round(alt)));
+      track.setAttribute('aria-valuetext', Math.round(alt) + ' metres, ' + name);
+      const prevB = TIERBANDS[TIERBANDS.indexOf(bandOf(alt)) - 1];
+      const span = hi - lo;
+      const inBand = Math.round(((alt - lo) / span) * 100);
+      stats.innerHTML = statCell('AIR VS QUAY', '−' + (alt * 0.0065).toFixed(1) + ' °C')
+        + statCell('WIND', Math.round(8 + alt * 0.09) + ' KM/H')
+        + statCell('CITY BELOW YOU', (prevB ? Math.round(prevB[7] + (below - prevB[7]) * (inBand / 100)) : Math.round(below * inBand / 100)) + '% OF RESIDENTS')
+        + statCell('ACCESS', access)
+        + statCell('CLOUD', alt >= CLOUD ? 'YOU ARE INSIDE IT' : (Math.round(CLOUD - alt)) + ' M BELOW BASE', alt >= CLOUD);
+    };
+    TIERBANDS.forEach(([lo, , tier]) => {
+      const t = document.createElement('div');
+      t.style.cssText = 'position:absolute;left:0;right:0;bottom:' + ((lo / MAXM) * 100) + '%;border-top:1px solid rgba(10,10,10,0.28)';
+      t.innerHTML = '<span style="position:absolute;left:3px;top:2px;font-family:' + MONO + ';font-size:8.5px;letter-spacing:0.1em;color:#8A8880">' + tier + '</span>';
+      q('#elTicks').appendChild(t);
+    });
+    q('#elCloud').style.bottom = ((CLOUD / MAXM) * 100) + '%';
+    q('#elCloudNote').textContent = 'CLOUD BASE TODAY ' + CLOUD + ' M';
+    const fromY = (clientY) => {
+      const r = track.getBoundingClientRect();
+      alt = Math.max(0, Math.min(MAXM, ((r.bottom - clientY) / r.height) * MAXM));
+      paintEl();
+    };
+    let drag = false;
+    track.addEventListener('pointerdown', (e) => { drag = true; track.setPointerCapture(e.pointerId); fromY(e.clientY); });
+    track.addEventListener('pointermove', (e) => { if (drag) fromY(e.clientY); });
+    ['pointerup', 'pointercancel'].forEach((ev) => track.addEventListener(ev, () => { drag = false; }));
+    track.addEventListener('keydown', (e) => {
+      const step = e.shiftKey ? 10 : 1;
+      if (e.key === 'ArrowUp' || e.key === 'ArrowRight') { alt = Math.min(MAXM, alt + step); paintEl(); e.preventDefault(); }
+      if (e.key === 'ArrowDown' || e.key === 'ArrowLeft') { alt = Math.max(0, alt - step); paintEl(); e.preventDefault(); }
+    });
+    paintEl();
 
     /* ── ten places ── */
     const PLACES = [
@@ -858,24 +961,54 @@ class Component extends DCLogic {
     let cur = 0, playing = false, xfading = false;
     const atk = 'a' + Date.now();
     root.dataset.audio = atk;
-    AUD.forEach((a) => { a.loop = false; a.volume = 0; a.preload = 'auto'; });
+    AUD.forEach((a) => {
+      a.loop = false; a.preload = 'auto'; a.crossOrigin = 'anonymous';
+      a.setAttribute('playsinline', ''); a.setAttribute('webkit-playsinline', '');
+    });
+
+    /* iOS/Safari ignore HTMLMediaElement.volume, so the cross-fade runs on Web Audio gains */
+    let ctx = null; const gains = [];
+    const wire = () => {
+      if (ctx) return ctx;
+      const AC2 = window.AudioContext || window.webkitAudioContext;
+      if (!AC2) return null;
+      try {
+        ctx = new AC2();
+        AUD.forEach((a, i) => {
+          a.volume = 1;   /* the graph owns the level now — a leftover element volume of 0 mutes the source */
+          const g = ctx.createGain(); g.gain.value = 0;
+          ctx.createMediaElementSource(a).connect(g); g.connect(ctx.destination);
+          gains[i] = g;
+        });
+        ctx.onstatechange = () => label();   /* keeps the glyph honest when the OS suspends us */
+      } catch (e) { ctx = null; }
+      root.__nkCtx = ctx;
+      return ctx;
+    };
+    const setVol = (i, v) => {
+      if (gains[i]) gains[i].gain.value = v; else AUD[i].volume = v;
+    };
+    const getVol = (i) => (gains[i] ? gains[i].gain.value : AUD[i].volume);
+    wire();   /* build the graph before any level is set, so nothing lands on element.volume */
+    setVol(0, 0); setVol(1, 0);
     const label = () => {
       q('#nkTrack').textContent = TRK[cur];
-      q('#nkPlay').textContent = playing ? '❙❙' : '▶';
-      q('#nkPlay').style.background = playing ? '#0A0A0A' : AC();
+      const on = playing && (!ctx || ctx.state === 'running');
+      q('#nkPlay').textContent = on ? '❙❙' : '▶';
+      q('#nkPlay').style.background = on ? '#0A0A0A' : AC();
     };
     const nextI = () => (cur + 1) % AUD.length;
     const startXf = () => {
       xfading = true;
       const b = AUD[nextI()];
-      b.currentTime = 0; b.volume = 0;
+      b.currentTime = 0; setVol(nextI(), 0);
       b.play().catch(() => {});
     };
     const handOver = () => {
       const a = AUD[cur];
-      a.pause(); a.currentTime = 0; a.volume = 0;
+      a.pause(); a.currentTime = 0; setVol(cur, 0);
       cur = nextI(); xfading = false;
-      AUD[cur].volume = VOL;
+      setVol(cur, VOL);
       label();
     };
     const tape = () => {
@@ -886,30 +1019,60 @@ class Component extends DCLogic {
         if (!xfading && left <= XF) startXf();
         if (xfading) {
           const t = Math.min(1, Math.max(0, (XF - left) / XF));
-          a.volume = VOL * Math.cos(t * Math.PI / 2);   /* equal-power cross-fade */
-          b.volume = VOL * Math.sin(t * Math.PI / 2);
+          setVol(cur, VOL * Math.cos(t * Math.PI / 2));   /* equal-power cross-fade */
+          setVol(nextI(), VOL * Math.sin(t * Math.PI / 2));
           if (left <= 0.14 || a.ended) handOver();
-        } else if (a.volume !== VOL) { a.volume = VOL; }
+        } else if (getVol(cur) !== VOL) { setVol(cur, VOL); }
         q('#nkFill').style.width = ((a.currentTime / a.duration) * 100).toFixed(2) + '%';
       }
       requestAnimationFrame(tape);
     };
     AUD.forEach((a, i) => a.addEventListener('ended', () => { if (playing && i === cur) handOver(); }));
-    q('#nkPlay').addEventListener('click', () => {
-      playing = !playing;
-      if (playing) { AUD[cur].volume = xfading ? AUD[cur].volume : VOL; AUD[cur].play().catch(() => {}); if (xfading) AUD[nextI()].play().catch(() => {}); }
-      else AUD.forEach((a) => a.pause());
+    const start = () => {
+      wire();
+      if (ctx && ctx.state !== 'running') ctx.resume().then(() => label()).catch(() => {});
+      playing = true;
+      if (!xfading) setVol(cur, VOL);
       label();
-    });
+      const p = AUD[cur].play();
+      if (xfading) AUD[nextI()].play().catch(() => {});
+      return p && p.catch ? p : Promise.resolve();
+    };
+    const stop = () => { playing = false; AUD.forEach((a) => a.pause()); label(); };
+    const live = () => playing && (!ctx || ctx.state === 'running');
+    q('#nkPlay').addEventListener('click', () => { live() ? stop() : start().catch(() => {}); });
     q('#nkSkip').addEventListener('click', () => {
       const a = AUD[cur];
-      if (!playing) { playing = true; a.play().catch(() => {}); }
+      if (!playing) start().catch(() => {});
       if (xfading || !a.duration) return;
       a.currentTime = Math.max(0, a.duration - XF);   /* drops into the same 5s fade */
       label();
     });
     label();
     requestAnimationFrame(tape);
+
+    /* autoplay on load; if the browser blocks it, the first touch/click/scroll starts the tape */
+    /* only real activation gestures count — a scroll does NOT unlock audio, so it must not disarm us */
+    const EVT = ['pointerdown', 'touchend', 'click', 'keydown'];
+    const audible = () => !AUD[cur].paused && (!ctx || ctx.state === 'running');
+    const settle = () => {
+      if (!audible()) { playing = false; label(); return; }
+      playing = true; label(); disarm();
+    };
+    const go = () => {
+      if (root.dataset.audio !== atk || audible()) { disarm(); return; }
+      wire();
+      if (ctx && ctx.state !== 'running') ctx.resume().catch(() => {});
+      start().catch(() => {});
+      setTimeout(settle, 140);   /* stand down only once sound is genuinely coming out */
+    };
+    const disarm = () => EVT.forEach((e) => window.removeEventListener(e, go, true));
+    EVT.forEach((e) => window.addEventListener(e, go, { capture: true, passive: true }));
+    start().catch(() => {});
+    setTimeout(settle, 220);
+    document.addEventListener('visibilitychange', () => {
+      if (!document.hidden && ctx && ctx.state === 'suspended' && playing) ctx.resume().catch(() => {});
+    });
 
     /* ── mood match ── */
     const INTENTS = ['EAT', 'A VIEW', 'QUIET', 'CONCRETE', 'THE WATER', 'AFTER DARK', 'CHEAP', 'UNDER COVER'];
@@ -983,11 +1146,14 @@ class Component extends DCLogic {
     });
     paintMood();
 
-    /* ── gallery: two plates ── */
+    /* ── gallery: four plates, filterable, orderable as prints ── */
     const GAL = [
-      ['Fog under the second deck', 'PLATE 001', 'TIER 02 / THE STACKS / 06:20', 'Gorge fog rises through the expressway lattice at first light and swallows the deck above it. Climbers use the outer ribs of the viaduct to get over the cloud line, in the one hour the interchange is quiet enough to hear the river underneath.', 260, 'galsrc01'],
-      ['Parapet, apex hour', 'PLATE 002', 'TIER 04 / NORTH TERRACE / 18:50', 'Two hours before the crown floors switch on, the terrace parapets fill with people who came for the sun coming off the tower glass. Everything standing behind them is the 2019 rush; the concrete they are sitting on is 1968.', 340, 'galsrc02'],
+      ['Fog under the second deck', 'PLATE 001', 'TIER 02 / THE STACKS / 06:20', 'Gorge fog rises through the expressway lattice at first light and swallows the deck above it. Climbers use the outer ribs of the viaduct to get over the cloud line, in the one hour the interchange is quiet enough to hear the river underneath.', 260, 'galsrc01', '02', 6.3],
+      ['Parapet, apex hour', 'PLATE 002', 'TIER 04 / NORTH TERRACE / 18:50', 'Two hours before the crown floors switch on, the terrace parapets fill with people who came for the sun coming off the tower glass. Everything standing behind them is the 2019 rush; the concrete they are sitting on is 1968.', 340, 'galsrc02', '04', 18.8],
+      ['Crown floors, cloud in', 'PLATE 003', 'TIER 05 / THE UPPER SPINE / 11:05', 'Low cloud comes off the channel and sits on the spine for most of the morning. From the sky-bridge the top forty floors are simply gone, and the people up there are working in weather nobody at street level can see.', 300, 'galsrc03', '05', 11.1],
+      ['The drowned margin', 'PLATE 004', 'TIER 00 / OUTSKIRT FLATS / 07:40', 'Forty minutes past the last tram stop the ground gives up and the forest stands in its own reflection. The city built the flood ponds in 1974 and never drained them; the trees have been dying upright ever since, on schedule.', 220, 'galsrc04', '00', 7.7],
     ];
+    const BAND = (h) => (h < 9 ? 'DAWN' : h < 16 ? 'DAY' : h < 20 ? 'DUSK' : 'NIGHT');
     GAL.forEach((r) => {
       const el = root.querySelector('#' + r[5]);
       if (el) r[5] = el.currentSrc || el.getAttribute('src');
@@ -1016,14 +1182,19 @@ class Component extends DCLogic {
     const paintLb = () => {
       const [title, plate, meta, note, , src] = GAL[lbi];
       lb.querySelector('[data-lbimg]').src = src;
-      lb.querySelector('[data-lbplate]').textContent = plate + ' / ' + (lbi + 1) + ' OF ' + GAL.length;
+      lb.querySelector('[data-lbplate]').textContent = plate + ' / ' + (GAL.indexOf(GAL[lbi]) + 1) + ' OF ' + GAL.length;
       lb.querySelector('[data-lbmeta]').textContent = meta;
       lb.querySelector('[data-lbtitle]').textContent = title;
       lb.querySelector('[data-lbnote]').textContent = note;
     };
     const openLb = (i) => { lbi = i; paintLb(); lb.style.display = 'flex'; document.body.style.overflow = 'hidden'; };
     const closeLb = () => { lb.style.display = 'none'; document.body.style.overflow = ''; };
-    const stepLb = (d) => { lbi = (lbi + d + GAL.length) % GAL.length; paintLb(); };
+    const stepLb = (d) => {   /* moves within whatever the filters are showing */
+      const list = shown().length ? shown() : GAL.map((r, i) => i);
+      const at = Math.max(0, list.indexOf(lbi));
+      lbi = list[(at + d + list.length) % list.length];
+      paintLb();
+    };
     lb.querySelector('[data-lbprev]').addEventListener('click', () => stepLb(-1));
     lb.querySelector('[data-lbnext]').addEventListener('click', () => stepLb(1));
     lb.querySelector('[data-lbclose]').addEventListener('click', closeLb);
@@ -1035,8 +1206,52 @@ class Component extends DCLogic {
     };
     window.addEventListener('keydown', this._onKey);
 
+    /* filters: tier + light */
+    const GAL_TIERS = ['ALL'].concat(GAL.map((r) => r[6]).filter((v, i, a) => a.indexOf(v) === i).sort());
+    const BANDS = ['ANY LIGHT'].concat(GAL.map((r) => BAND(r[7])).filter((v, i, a) => a.indexOf(v) === i));
+    let fTier = 'ALL', fBand = 'ANY LIGHT';
+    const fWrap = q('#galfilters');
+    const galChips = [];
+    const chip = (text, group) => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.textContent = group === 't' && text !== 'ALL' ? 'TIER ' + text : text;
+      b.style.cssText = 'min-height:32px;padding:0 10px;border:1px solid rgba(10,10,10,0.28);background:transparent;color:#0A0A0A;cursor:pointer;'
+        + 'font-family:' + MONO + ';font-size:9.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase';
+      b.addEventListener('click', () => {
+        if (group === 't') fTier = text; else fBand = text;
+        paintChips(); paintGrid();
+      });
+      galChips.push([b, group, text]);
+      fWrap.appendChild(b);
+      return b;
+    };
+    GAL_TIERS.forEach((t) => chip(t, 't'));
+    const div = document.createElement('span');
+    div.setAttribute('aria-hidden', 'true');
+    div.style.cssText = 'width:1px;align-self:stretch;background:rgba(10,10,10,0.28);margin:0 2px';
+    fWrap.appendChild(div);
+    BANDS.forEach((t) => chip(t, 'b'));
+    const paintChips = () => galChips.forEach(([b, g, t]) => {
+      const on = g === 't' ? fTier === t : fBand === t;
+      b.style.background = on ? '#0A0A0A' : 'transparent';
+      b.style.color = on ? '#F2F1EE' : '#0A0A0A';
+      b.style.borderColor = on ? '#0A0A0A' : 'rgba(10,10,10,0.28)';
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+
     const grid = q('#galgrid');
-    GAL.forEach(([title, plate, meta, note, price, src], i) => {
+    const shown = () => GAL.map((r, i) => i)
+      .filter((i) => (fTier === 'ALL' || GAL[i][6] === fTier) && (fBand === 'ANY LIGHT' || BAND(GAL[i][7]) === fBand));
+    const paintGrid = () => {
+      grid.textContent = '';
+      const list = shown();
+      q('#galcount').textContent = String(list.length);
+      q('#galempty').style.display = list.length ? 'none' : 'inline';
+      list.forEach(buildCell);
+    };
+    const buildCell = (i) => {
+      const [title, plate, meta, note, price, src] = GAL[i];
       const cell = document.createElement('figure');
       Object.assign(cell.style, {
         margin: '0', background: 'rgba(255,255,255,0.42)', border: '1px solid rgba(10,10,10,0.22)',
@@ -1053,7 +1268,8 @@ class Component extends DCLogic {
         + '<div style="display:flex;align-items:baseline;justify-content:space-between;gap:8px"><span style="font-weight:700;font-size:18px;line-height:1.1;letter-spacing:-0.03em;text-transform:uppercase">' + title + '</span>'
         + '<span style="font-family:' + MONO + ';font-size:11.5px;color:' + AC() + '">↗</span></div>'
         + '<div style="font-size:13px;line-height:1.55">' + note + '</div>'
-        + '<button type="button" style="margin-top:auto;align-self:flex-start;min-height:36px;padding:0;border:0;background:transparent;cursor:pointer;font-family:' + MONO + ';font-size:9.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:#0A0A0A;text-decoration:underline">PRINT / ' + price + ' KR</button>'
+        + '<button type="button" style="margin-top:auto;align-self:flex-start;min-height:36px;padding:0;border:0;background:transparent;cursor:pointer;font-family:' + MONO + ';font-size:9.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:#0A0A0A;text-decoration:underline">'
+        + 'PRINT / ' + price + ' KR</button>'
         + '</figcaption>';
       ['top:5px;left:5px', 'top:5px;right:5px', 'bottom:5px;left:5px', 'bottom:5px;right:5px'].forEach((pos) => {
         const mark = document.createElement('span');
@@ -1063,15 +1279,11 @@ class Component extends DCLogic {
         cell.appendChild(mark);
       });
       cell.querySelector('[data-open]').addEventListener('click', () => openLb(i));
-      cell.querySelector('figcaption button').addEventListener('click', (e) => {
-        const b = e.currentTarget;
-        b.textContent = 'REQUESTED ✓';
-        b.style.color = AC();
-        b.style.textDecoration = 'none';
-      });
+      const pb = cell.querySelector('figcaption button');
+      pb.addEventListener('click', () => { pb.textContent = 'REQUESTED ✓'; pb.style.color = AC(); pb.style.textDecoration = 'none'; });
       grid.appendChild(cell);
-    });
-    q('#galcount').textContent = String(GAL.length);
+    };
+    paintChips(); paintGrid();
   }
 }
 
